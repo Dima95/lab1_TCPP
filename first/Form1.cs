@@ -18,6 +18,7 @@ namespace first
             chart1.ChartAreas[0].AxisX.Maximum = 1.5;
             chart1.ChartAreas[0].AxisX.IsLabelAutoFit = false;
         }
+
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             chart1.Series[0].Points.Clear();
